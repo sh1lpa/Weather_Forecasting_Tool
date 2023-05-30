@@ -4,7 +4,7 @@ Create a command-line tool that accepts a city's name and returns the current we
 
 create env varible using python or refer this doc https://phoenixnap.com/kb/windows-set-environment-variable
 
-        os.environ["OPENWEATHER_KEY"] = "<your open wheather api key>"
+        os.environ["OPENWEATHER_API_KEY"] = "<your open wheather api key>"
 
 To check the env variable :
 
