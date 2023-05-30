@@ -11,7 +11,7 @@ def main():
 
     req = ''
     while req !='q':
-        req = input('Please enter the City name : (or q to exit) ')
+        req = input('Please enter the City name  (or q to exit) :')
                 # config['city name'] = text
         param = {"q":req,"appid": "f16f84f211f81621ca77ba3ae4088b47","units": "metric"}
         # print(param)
