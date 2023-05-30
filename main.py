@@ -7,7 +7,8 @@ def main():
     while req !='q':
         req = input('Please enter the City name  (or q to exit) :')
                 # config['city name'] = text
-        param = {"q":req,"appid": os.environ["OPENWEATHER_KEY"],"units": "metric"}
+
+        param = {"q":req,"appid": os.environ["OPENWEATHER_API_KEY"],"units": "metric"}
         # print(param)
         try:
 
