@@ -17,4 +17,4 @@ To check the env variable :
 
 command to run the code :
 
-        **python .\main.py**
+        python .\main.py
