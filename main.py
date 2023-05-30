@@ -1,11 +1,5 @@
 import requests
-import json
-
-def get_config():
-
-    with open('D:\Project\Weather_Forecasting_Tool\config.json') as f:
-        data = json.load(f)
-        return data
+import os
 
 def main():
 
@@ -13,7 +7,7 @@ def main():
     while req !='q':
         req = input('Please enter the City name  (or q to exit) :')
                 # config['city name'] = text
-        param = {"q":req,"appid": "api_key","units": "metric"}
+        param = {"q":req,"appid": os.environ["OPENWEATHER_KEY"],"units": "metric"}
         # print(param)
         try:
 
